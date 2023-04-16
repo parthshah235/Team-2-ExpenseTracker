@@ -74,7 +74,8 @@ function Analatics({ transactions }) {
             <h4>Total Turnover : {totalTurnover}</h4>
             <hr />
             <h5>Income : {totalIncomeTurnover}</h5>
-            <h5>Expence : {totalExpenceTurnover}</h5>
+            <h5>Expense : {totalExpenceTurnover}</h5>
+            <h5>Savings : {totalIncomeTurnover - totalExpenceTurnover}</h5>
 
             <div className="progress-bars">
               <Progress
